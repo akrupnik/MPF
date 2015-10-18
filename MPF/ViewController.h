@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)downloadFromFacebook:(id)sender;
+- (IBAction)downloadFromInstagram:(id)sender;
 
 @end
 

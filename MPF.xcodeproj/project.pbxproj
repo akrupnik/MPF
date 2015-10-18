@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7075DF71BD277240044FF70 /* FacebookFour.m in Sources */ = {isa = PBXBuildFile; fileRef = B7075DF61BD277240044FF70 /* FacebookFour.m */; };
+		B7075DFA1BD279B90044FF70 /* NSMutableArray+Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = B7075DF91BD279B90044FF70 /* NSMutableArray+Functions.m */; };
+		B769D4801BD12B8300F85D35 /* ShowFourImages.m in Sources */ = {isa = PBXBuildFile; fileRef = B769D47F1BD12B8300F85D35 /* ShowFourImages.m */; };
+		B769D4851BD1349900F85D35 /* InstagramFour.m in Sources */ = {isa = PBXBuildFile; fileRef = B769D4841BD1349900F85D35 /* InstagramFour.m */; };
+		B769D4881BD1364F00F85D35 /* Images.m in Sources */ = {isa = PBXBuildFile; fileRef = B769D4871BD1364F00F85D35 /* Images.m */; };
 		B78FBD931BD1243600996962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B78FBD921BD1243600996962 /* main.m */; };
 		B78FBD961BD1243600996962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B78FBD951BD1243600996962 /* AppDelegate.m */; };
 		B78FBD991BD1243600996962 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78FBD981BD1243600996962 /* ViewController.m */; };
@@ -27,6 +32,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7075DF51BD277240044FF70 /* FacebookFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookFour.h; sourceTree = "<group>"; };
+		B7075DF61BD277240044FF70 /* FacebookFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookFour.m; sourceTree = "<group>"; };
+		B7075DF81BD279B90044FF70 /* NSMutableArray+Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Functions.h"; sourceTree = "<group>"; };
+		B7075DF91BD279B90044FF70 /* NSMutableArray+Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Functions.m"; sourceTree = "<group>"; };
+		B769D47E1BD12B8300F85D35 /* ShowFourImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowFourImages.h; path = ../ShowFourImages.h; sourceTree = "<group>"; };
+		B769D47F1BD12B8300F85D35 /* ShowFourImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowFourImages.m; path = ../ShowFourImages.m; sourceTree = "<group>"; };
+		B769D4831BD1349900F85D35 /* InstagramFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramFour.h; sourceTree = "<group>"; };
+		B769D4841BD1349900F85D35 /* InstagramFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramFour.m; sourceTree = "<group>"; };
+		B769D4861BD1364F00F85D35 /* Images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Images.h; sourceTree = "<group>"; };
+		B769D4871BD1364F00F85D35 /* Images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Images.m; sourceTree = "<group>"; };
 		B78FBD8D1BD1243600996962 /* MPF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78FBD911BD1243600996962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B78FBD921BD1243600996962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,10 +96,20 @@
 		B78FBD8F1BD1243600996962 /* MPF */ = {
 			isa = PBXGroup;
 			children = (
+				B7075DF81BD279B90044FF70 /* NSMutableArray+Functions.h */,
+				B7075DF91BD279B90044FF70 /* NSMutableArray+Functions.m */,
 				B78FBD941BD1243600996962 /* AppDelegate.h */,
+				B769D47E1BD12B8300F85D35 /* ShowFourImages.h */,
+				B769D47F1BD12B8300F85D35 /* ShowFourImages.m */,
 				B78FBD951BD1243600996962 /* AppDelegate.m */,
 				B78FBD971BD1243600996962 /* ViewController.h */,
 				B78FBD981BD1243600996962 /* ViewController.m */,
+				B769D4831BD1349900F85D35 /* InstagramFour.h */,
+				B769D4841BD1349900F85D35 /* InstagramFour.m */,
+				B7075DF51BD277240044FF70 /* FacebookFour.h */,
+				B7075DF61BD277240044FF70 /* FacebookFour.m */,
+				B769D4861BD1364F00F85D35 /* Images.h */,
+				B769D4871BD1364F00F85D35 /* Images.m */,
 				B78FBD9A1BD1243600996962 /* Main.storyboard */,
 				B78FBD9D1BD1243600996962 /* Images.xcassets */,
 				B78FBD9F1BD1243600996962 /* LaunchScreen.xib */,
@@ -219,8 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B769D4851BD1349900F85D35 /* InstagramFour.m in Sources */,
 				B78FBD991BD1243600996962 /* ViewController.m in Sources */,
+				B7075DF71BD277240044FF70 /* FacebookFour.m in Sources */,
+				B7075DFA1BD279B90044FF70 /* NSMutableArray+Functions.m in Sources */,
 				B78FBD961BD1243600996962 /* AppDelegate.m in Sources */,
+				B769D4881BD1364F00F85D35 /* Images.m in Sources */,
+				B769D4801BD12B8300F85D35 /* ShowFourImages.m in Sources */,
 				B78FBD931BD1243600996962 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +444,7 @@
 				B78FBDB21BD1243600996962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B78FBDB31BD1243600996962 /* Build configuration list for PBXNativeTarget "MPFTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +453,7 @@
 				B78FBDB51BD1243600996962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
